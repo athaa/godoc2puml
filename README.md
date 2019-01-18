@@ -1,14 +1,18 @@
 godoc2puml
 ==========
+This project is project is a fork from original unmaintained project https://github.com/t-yuki/godoc2puml.
 
-godoc2puml converts godoc formatted documentation into plantuml format.
+The fork has been necessary because of the original project depends on depency which do not exists anymore (updated from "golang.org/x/tools/oracle" to "github.com/visualfc/gotools/oracle/oracle").
+It additionnally update the relation type to not force the orientation of the relation and let the "IA" chose the best way (usage of --> instead of ->).
+
+godoc2puml converts godoc formatted documentation into plantuml format. 
 
 Installation
 ------------
 
 Just type the following to install the program:
 
-    $ go get -u github.com/t-yuki/godoc2puml
+    $ go get -u github.com/athaa/godoc2puml
 
 If you want to draw a diagram as a image file, it depends on java and graphviz. you must install them:
 
