@@ -84,18 +84,18 @@ func FprintPlantUML(w io.Writer, scope *ast.Scope, lolipopPackages []string) {
 func pumlRelType(relType ast.RelationType, lolipop bool) string {
 	switch relType {
 	case ast.Association:
-		return "->"
+		return "-->"
 	case ast.Extension:
-		return "-|>"
+		return "--|>"
 	case ast.Composition:
-		return "*-"
+		return "*--"
 	case ast.Agregation:
-		return "o-"
+		return "o--"
 	case ast.Implementation:
 		if lolipop {
-			return "-()"
+			return "--()"
 		}
-		return ".|>"
+		return "..|>"
 	}
 	panic(relType)
 }
