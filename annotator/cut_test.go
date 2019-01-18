@@ -3,8 +3,8 @@ package annotator_test
 import (
 	"testing"
 
-	"github.com/t-yuki/godoc2puml/annotator"
-	"github.com/t-yuki/godoc2puml/ast"
+	"github.com/athaa/godoc2puml/annotator"
+	"github.com/athaa/godoc2puml/ast"
 )
 
 func TestCut(t *testing.T) {

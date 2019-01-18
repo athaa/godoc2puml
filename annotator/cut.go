@@ -1,6 +1,6 @@
 package annotator
 
-import "github.com/t-yuki/godoc2puml/ast"
+import "github.com/athaa/godoc2puml/ast"
 
 // Cut removes (probably) unnecessary relations preserving longest path.
 func Cut(scope *ast.Scope) error {

@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"strings"
 
-	. "github.com/t-yuki/godoc2puml/ast"
+	. "github.com/athaa/godoc2puml/ast"
 )
 
 type typeVisitor struct {

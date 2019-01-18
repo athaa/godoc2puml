@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/t-yuki/godoc2puml/ast"
-	"github.com/t-yuki/godoc2puml/parser"
-	"github.com/t-yuki/godoc2puml/printer"
+	"github.com/athaa/godoc2puml/ast"
+	"github.com/athaa/godoc2puml/parser"
+	"github.com/athaa/godoc2puml/printer"
 )
 
 func TestFprintPlantUML(t *testing.T) {

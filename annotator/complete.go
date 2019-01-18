@@ -3,8 +3,8 @@ package annotator
 import (
 	"log"
 
-	"github.com/t-yuki/godoc2puml/ast"
-	"github.com/t-yuki/godoc2puml/parser"
+	"github.com/athaa/godoc2puml/ast"
+	"github.com/athaa/godoc2puml/parser"
 )
 
 func Complete(scope *ast.Scope) error {

@@ -3,7 +3,7 @@ package parser
 import (
 	"fmt"
 	"go/ast"
-	. "github.com/t-yuki/godoc2puml/ast"
+	. "github.com/athaa/godoc2puml/ast"
 )
 
 type methodVisitor struct {

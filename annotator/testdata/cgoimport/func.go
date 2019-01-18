@@ -1,6 +1,6 @@
 package cgoimport
 
-import "github.com/t-yuki/godoc2puml/annotator/testdata/cgo"
+import "github.com/athaa/godoc2puml/annotator/testdata/cgo"
 
 type Struct1 struct {
 	string

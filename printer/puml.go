@@ -6,7 +6,7 @@ import (
 	"io"
 	"text/template"
 
-	"github.com/t-yuki/godoc2puml/ast"
+	"github.com/athaa/godoc2puml/ast"
 )
 
 var pumlTemplate = template.Must(template.New("plantuml").Funcs(pumlFuncs).Parse(`

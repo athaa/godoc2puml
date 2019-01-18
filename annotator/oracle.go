@@ -5,10 +5,11 @@ import (
 	"go/build"
 	"strings"
 
-	"github.com/t-yuki/godoc2puml/ast"
+	"github.com/athaa/godoc2puml/ast"
 	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/oracle"
-	"golang.org/x/tools/oracle/serial"
+	"github.com/visualfc/gotools/oracle/oracle"
+	"github.com/visualfc/gotools/oracle/oracle/serial"
+
 )
 
 // Oracle annotates `pkg` using go.tools/oracle interface implements detector.

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/t-yuki/godoc2puml/annotator"
-	"github.com/t-yuki/godoc2puml/parser"
+	"github.com/athaa/godoc2puml/annotator"
+	"github.com/athaa/godoc2puml/parser"
 )
 
 func TestOracleCGo(t *testing.T) {

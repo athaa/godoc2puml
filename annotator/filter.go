@@ -3,7 +3,7 @@ package annotator
 import (
 	"regexp"
 
-	"github.com/t-yuki/godoc2puml/ast"
+	"github.com/athaa/godoc2puml/ast"
 )
 
 // Filter removes nodes matched to `regexString`.
